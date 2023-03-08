@@ -1,9 +1,14 @@
 import "./productlist.css"
+import {Link} from "react-router-dom"
 
 const ProductLis = () => {
   return (
     <div className="productlist">
+          <Link to="/newproduct" className="btn  addbtn">
+              Add new Product
+          </Link>
         <h3>product list</h3>
+
           <table class="table table-light border text-center ">
               <thead>
                   <tr >

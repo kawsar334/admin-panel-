@@ -16,6 +16,15 @@
     object-fit: cover;
     cursor: pointer;
 }
+.addbtn{
+    display: block;
+    align-self:  center;
+    width: max-content;
+    margin: 10px 0px;
+    margin-left: auto;
+    background-color: blue;
+    color: white;
+}
 
 
 @media screen and (max-width:778px ) {
